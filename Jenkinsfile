@@ -7,7 +7,7 @@ pipeline
 		{
 			steps
 			{
-				sh "/.python mainFile.py"
+				//sh "/.python mainFile.py"
 				echo "Source code is compliled"
 			}
 		}
