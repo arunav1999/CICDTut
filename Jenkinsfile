@@ -15,8 +15,7 @@ pipeline
 		{
 			steps
 			{	
-				sh "su - jenkins"
-				sh "/. python3 unitTests.py"
+				sh "python3 unitTests.py"
 			}
 		}
 	}
