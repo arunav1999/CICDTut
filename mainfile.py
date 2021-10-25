@@ -21,6 +21,7 @@ class MainFileCode:
 		return self.isPalindrome(inp)
 
 #Added a comment
+#1
 if __name__ == '__main__':
 	inp = input()
 	obj = MainFileCode()
