@@ -1,5 +1,6 @@
+
 class MainFileCode:	
-	def isPrime(n,self):
+	def isPrime(self,n):
 		if(n > 1):
 			for i in range(2,(n//2) + 1):
 				if((n % i) == 0):
@@ -8,16 +9,17 @@ class MainFileCode:
 				return (True,'Prime')
 		return (False,'Prime')
 
-	def isPalindrome(string,self):
+	def isPalindrome(self,string):
 		for i in range(len(string)//2):
 			if(string[i]!=string[len(string)-1 - i]):
 				return (False,'Palin')
 		return (True,'Palin')
 
-	def isDecide(inp,self):
+	def isDecide(self,inp):
 		if(inp.isnumeric()):
-			return isPrime(int(inp))
-		return isPalindrome(inp)
+			return self.isPrime(int(inp))
+		return self.isPalindrome(inp)
+
 
 if __name__ == '__main__':
 	inp = input()
