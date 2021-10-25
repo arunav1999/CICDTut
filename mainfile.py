@@ -20,7 +20,7 @@ class MainFileCode:
 			return self.isPrime(int(inp))
 		return self.isPalindrome(inp)
 
-
+#Added a comment
 if __name__ == '__main__':
 	inp = input()
 	obj = MainFileCode()
