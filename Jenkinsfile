@@ -15,7 +15,7 @@ pipeline
 		{
 			steps
 			{
-				sh "/.python3 unitTests.py"
+				sh "/. python3 unitTests.py"
 			}
 		}
 	}
